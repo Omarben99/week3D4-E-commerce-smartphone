@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BenAissa Phones</title>
+    <link rel="stylesheet" href="benaissa.css">
+</head>
+<body>
+
+<header>
+    <h1 id="shop-title">BenAissa Phones</h1>
+    <button onclick="toggleTitolo()">Cambia Titolo</button>
+    <button class="btn-top-right" onclick="cambiaColoreBackground()">Cambia Sfondo</button>
+</header>
+
+<main>
+    <table>
+        <thead>
+            <tr>
+                <th>Immagine</th>
+                <th>Modello</th>
+                <th>Descrizione</th>
+                <th>Prezzo</th>
+                <th>Link</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><img src="immagini smartphones/google pixel 7a.jpg" alt="Google Pixel 7a"></td>
+                <td>Google Pixel 7a</td>
+                <td>Display 6.1", 128GB</td>
+                <td class="prezzo">€484.14</td>
+                <td><a href="https://www.amazon.it/Google-Pixel-Caricatore-Cellulare-grandangolo/dp/B0BZYPSP1B/ref=sr_1_1_sspa?__mk_it_IT=%C3%85M%C3%85%C5%BD%C3%95%C3%91&nsdOptOutParam=true&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1" target="_blank">Acquista su Amazon</a></td>
+            </tr>
+            <tr>
+                <td><img src="immagini smartphones/Motorola Moto e14.jpg" alt="Motorola Moto e14"></td>
+                <td>Motorola Moto e14</td>
+                <td>Display 6.56', 64GB</td>
+                <td class="prezzo">€68.50</td>
+                <td><a href="https://www.amazon.it/Motorola-batteria-fotocamera-processore-Charcoal/dp/B0D5RDYHSZ/ref=sr_1_5?__mk_it_IT=%C3%85M%C3%85%C5%BD%C3%95%C3%91&nsdOptOutParam=true&sr=8-5" target="_blank">Acquista su Amazon</a></td>
+            </tr>
+            <tr>
+                <td><img src="immagini smartphones/Samsung Galaxy A25 5G.jpg" alt="Samsung Galaxy A25 5G"></td>
+                <td>Samsung Galaxy A25 5G</td>
+                <td>Display 6.5", 256GB</td>
+                <td class="prezzo">€259.99</td>
+                <td><a href="https://www.amazon.it/Samsung-Smartphone-espandibile-Batteria-Versione/dp/B0CN12K224/ref=sr_1_21?__mk_it_IT=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=2Y01S37FSYE8V&dib=eyJ2IjoiMSJ9.2Q3c1uWjxs539V4RDAIIwtJ0QComCznM8QZaajNWIWr28tqAy_nAF8DFNd0QRTYw52TyvjgPcM98mlJ9ZAHnM6RNkiamr5pmDCvv9nalEwboNUmY2W_mBZJGF48PH_b3OVUYwHgxNeYhHeqhJk_dKmd-Pj-icERCjSo9ueUt2vswGSyVSSWoV3H91MtCCQV3c7GGvraVXjYep3buoI4_S3chiFgpMXqKj3HlSsC2lwmKQbHOoxtAL7Sae8YytFtbn4E__VtaOJGS_-lBOMlt2sytN2gV1r5jE4XiGjYuNNM.8ylkvjdfV_t0kb5YkzfEiBwelGVqQRJ-nRjUxegtMnI&dib_tag=se&keywords=smartphones&nsdOptOutParam=true&qid=1732979657&sprefix=smartphones%2Caps%2C253&sr=8-21" target="_blank">Acquista su Amazon</a></td>
+            </tr>
+            <tr>
+                <td><img src="immagini smartphones/Xiaomi 13.jpg" alt=" Xiaomi 13"></td>
+                <td>Xiaomi 13</td>
+                <td>Display 6.36", 256GB</td>
+                <td class="prezzo">€549.95</td>
+                <td><a href="https://www.amazon.it/Xiaomi-Smartphone-Display-Charging-Snapdragon/dp/B0BXH3T5CS/ref=sr_1_38?__mk_it_IT=%C3%85M%C3%85%C5%BD%C3%95%C3%91&nsdOptOutParam=true&sr=8-38" target="_blank">Acquista su Amazon</a></td>
+            </tr>
+            <tr>
+                <td><img src="immagini smartphones/Apple iPhone 16 Pro Max.jpg" alt="Apple iPhone 16 Pro Max"></td>
+                <td>Apple iPhone 16 Pro Max</td>
+                <td>Display 6.9", 256GB</td>
+                <td class="prezzo">€1399.00</td>
+                <td><a href="https://www.amazon.it/Apple-iPhone-Pro-Max-256/dp/B0DGJMBTYK/ref=sr_1_11?__mk_it_IT=%C3%85M%C3%85%C5%BD%C3%95%C3%91&nsdOptOutParam=true&sr=8-11" target="_blank">Acquista su Amazon</a></td>
+            </tr>
+        </tbody>
+        <button onclick="aggiungiClasse()">Aggiungi Classe ai Link Amazon</button>
+        <button onclick="toggleVisibilitaImmagini()">Mostra/Nascondi Immagini</button>
+        <button onclick="cambiaColorePrezzi()">Cambia Colori Prezzi</button>
+    </table>
+    
+
+    <div class="comment-box">
+        <h2>Lascia un Commento</h2>
+        <textarea placeholder="Scrivi il tuo commento qui..."></textarea>
+        <br>
+        <button>Invia</button>
+    </div>
+</main>
+
+<footer>
+    <p>Indirizzo: <span id="address">BenAissa Phones - Viale Risorgimento 20, Pizzighettone (CR), Italia</span></p>
+    <button onclick="cambiaIndirizzo()">Cambia Indirizzo</button>
+</footer>
+<script src="benaissa.js"></script>
+</body>
+</html>

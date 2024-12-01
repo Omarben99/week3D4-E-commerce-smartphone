@@ -1,0 +1,76 @@
+body {
+    font-family: 'Times New Roman', Times, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header, footer {
+    background-color: #222124;
+    color: rgb(247, 240, 240);
+    text-align: center;
+    padding: 1em 0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+table th {
+    background-color: #f4f4f4;
+}
+
+img {
+    max-width: 100px;
+    height: auto;
+}
+
+.comment-box {
+    margin: 20px;
+    text-align: center;
+}
+
+.comment-box textarea {
+    width: 80%;
+    height: 100px;
+    padding: 10px;
+    font-size: 1em;
+}
+
+.comment-box button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 1em;
+}
+.btn-top-right {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-top-right:hover {
+    background-color: #0056b3;
+}
+.amazon-link {
+    color: #ff9900; 
+    font-weight: bold;
+    text-decoration: underline;
+}
+.invisibile {
+    visibility: hidden; 
+}
